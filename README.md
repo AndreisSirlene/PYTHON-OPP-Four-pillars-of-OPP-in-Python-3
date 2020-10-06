@@ -24,7 +24,7 @@ SSH URLs provide access to a Git repository via SSH, a secure protocol. If you h
 
 # :tada: Contributing
 
-Check out the [contributing] page to see the best places to file issues, start discussions and begin contributing.
+Check out the [contributing](https://github.com/AndreisSirlene/PYTHON-OPP-Four-pillars-of-OPP-in-Python-3/blob/master/CONTRIBUTING.md page to see the best places to file issues, start discussions and begin contributing.
 
 
 # :closed_book: License
