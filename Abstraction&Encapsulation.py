@@ -27,32 +27,33 @@ class Library:
 # Layers of abstraction -> request for a book, return a book
 class Customer:
     def requestBook(self):
-        print('Enter the name of a book you would like to borrow: ') 
+        print('-->Enter the name of a book you would like to borrow: ') 
         self.book = input()
         return self.book
 
     def returnBook(self):
-        print('Enter the name of the book you are returning: ')
+        print(' -->Enter the name of the book you are returning: ')
         self.book = input()
         return self.book
 
 # Main Program
-library = Library(['Think and Grow rich', 'For one more Day', 'Who will cry when you Die'])
+library = Library(['- Think and Grow rich', '- For one more Day', '- Who will cry when you Die'])
 customer = Customer() 
-print()
 while True: 
     print('Enter 1 to display the available books')
     print('Enter 2 to request for a book')
     print('Enter 3 to return a book')
     print('Enter 4 to exit the program')
     userChoise = int(input('Option: '))
-    if userChoise is 1:
+    if userChoise == 1:
         library.displayAvailableBooks()
-    elif userChoise is 2:
+
+    elif userChoise == 2:
         requestedBook = customer.requestBook()
         library.lendBook(requestedBook)
-    elif userChoise is 3:
+
+    elif userChoise == 3:
         returnedBook = customer.returnBook()
         library.addBook(returnedBook)  # Add the book back to a library
-    elif userChoise is 4:
+    elif userChoise == 4:
         quit()

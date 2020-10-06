@@ -23,7 +23,7 @@ employeeTwo.name
 
 numbers = [1, 2, 3]
 type(numbers)
-< class 'list'>
+#class'list'>
 numbers.append(4) # the append method will add the number to the list
 numbers[1, 2, 3, 4] #this is the out put
 
