@@ -1,4 +1,4 @@
-# PYTHON OPP: Four pillars of OPP in Python 3 - [Ongoing Project]
+# PYTHON OPP: Four pillars of OPP in Python 3 
 
 > "Live as if you were to die tomorrow. Learn as if you were to live forever." Mahatma Gandhi
 
